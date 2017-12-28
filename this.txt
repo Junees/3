@@ -1,0 +1,41 @@
+Okay, This is a KotlinJS implmentation with NodeJS.
+to run type: npm start
+to rebuld type: gradle build
+
+to start this project from scratch again:
+
+copy paste this build.gradle file
+then npm init 
+npm install kotlin --save
+npm install express --save 
+
+then create the folders in order 
+mkdir /src
+mkdir /src/main
+mkdir /src/main/kotlin
+
+add  "start": "node node/index.js" to package.json file
+then npm start
+
+if npm is out out of date: 
+
+install nvm! (Node Version Manager)
+
+https://github.com/creationix/nvm
+
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+
+then
+
+nvm install 'latest version of node'
+
+then npm start should work!
+
+the reason why this is useful: 
+
+Kotlin is just like java, so whatever you write is a lot easier than relearning js.
+Plus with a NodeJS implmentation it's a lot easier than doing server stuff in java anyways
+If you want Node libraries or any js libraries, no problem
+JavaFX or java libraries? No problem
+this all compliles into an easy to use package, with admittedly not very much overhead. 
+It all works in the terminal
